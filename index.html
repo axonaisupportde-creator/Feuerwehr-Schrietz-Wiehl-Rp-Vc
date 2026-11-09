@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feuerwehr Schrietz Wiehl | Roblox Feuerwehr-Roleplay-Community</title>
+  <meta name="description" content="Feuerwehr Schrietz Wiehl – professionelle Roblox-Feuerwehr-Roleplay-Community mit Leitstellenbetrieb, realistischer Ausbildung und starkem Team. Jetzt im Discord beitreten.">
+  <meta name="theme-color" content="#06070a">
+  <meta property="og:title" content="Feuerwehr Schrietz Wiehl">
+  <meta property="og:description" content="Roblox Feuerwehr-Roleplay-Community im Oberbergischen Kreis – Einsätze, Team und Discord.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-home">
+
+  <!-- Icon-Sprite -->
+  <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+    <symbol id="icon-flame" viewBox="0 0 24 24">
+      <path d="M12 2s5.5 5.1 5.5 10.2A5.5 5.5 0 0 1 12 17.7a5.5 5.5 0 0 1-5.5-5.5C6.5 9.3 8 7.6 9.2 6c.4 1.8 1.3 3 2.3 3.6C12.6 7.3 12.7 4.6 12 2Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+      <path d="M12 21.5c-2.5 0-4.3-1.7-4.3-3.9 0-1.9 1.3-3.1 2.3-4.3.3 1.2.9 2 1.7 2.5.6-1.5 1.4-2.1 2.4-2.5 1 1.2 2.2 2.4 2.2 4.3 0 2.2-1.8 3.9-4.3 3.9Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24">
+      <path d="M12 3 4.8 5.8v5.4c0 4.6 3 7.7 7.2 9.8 4.2-2.1 7.2-5.2 7.2-9.8V5.8L12 3Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+      <path d="m8.8 11.6 2.3 2.3 4.2-4.4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-discord" viewBox="0 0 24 24">
+      <path d="M20.317 4.369a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.6 12.6 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.056 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128c.126-.094.252-.192.372-.291a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.009c.12.099.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.891.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03ZM8.02 15.331c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418Zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="icon-users" viewBox="0 0 24 24">
+      <circle cx="9" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path d="M3 19.2c0-3.1 2.7-5.2 6-5.2s6 2.1 6 5.2M16 5.2a3.2 3.2 0 0 1 0 6.1M17.5 14.4c2 .6 3.5 2.3 3.5 4.8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-truck" viewBox="0 0 24 24">
+      <path d="M2.5 6.5h10v10h-10zM12.5 10h4l3.5 3.2v3.3h-7.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+      <circle cx="6.4" cy="18" r="1.9" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <circle cx="16.6" cy="18" r="1.9" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M8.3 18h6.4M2.5 9.5h3.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-radio" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="2.4" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path d="M7.8 7.8a6 6 0 0 0 0 8.4M16.2 7.8a6 6 0 0 1 0 8.4M4.9 4.9a10 10 0 0 0 0 14.2M19.1 4.9a10 10 0 0 1 0 14.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-wrench" viewBox="0 0 24 24">
+      <path d="M14.6 6.2a4.3 4.3 0 0 0 5.4 5.4l-8.7 8.7a2.6 2.6 0 0 1-3.7-3.7l8.7-8.7a4.3 4.3 0 0 0-1.7-1.7Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" transform="rotate(8 12 12)"/>
+      <path d="M4.2 5.1 6 3.3l3.4 3.4-1.8 1.8z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-graduation" viewBox="0 0 24 24">
+      <path d="m12 4 9 4.5-9 4.5-9-4.5L12 4Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+      <path d="M6.5 10.8v4.4c0 1.7 2.5 3 5.5 3s5.5-1.3 5.5-3v-4.4M21 9v5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-calendar" viewBox="0 0 24 24">
+      <rect x="3.2" y="5" width="17.6" height="15.3" rx="2.4" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M3.2 10h17.6M8 3v4M16 3v4M8 14h2.4M13.6 14H16M8 17.4h2.4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="icon-rocket" viewBox="0 0 24 24">
+      <path d="M13.2 4.2c2.7-2 5.5-1.5 6.6-1.4.1 1.1.6 3.9-1.4 6.6-1.9 2.6-5.6 4.6-7.6 5.5l-3.1-3.1c.9-2 2.9-5.7 5.5-7.6Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+      <circle cx="15.6" cy="8.4" r="1.6" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M8 13.5 5 13l-1-3 3.5-.4M10.5 16l-.5 3 3 1 .4-3.5M6.8 17.2 4 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-target" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="8.3" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <circle cx="12" cy="12" r="4.4" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <circle cx="12" cy="12" r="1" fill="currentColor"/>
+    </symbol>
+    <symbol id="icon-arrow" viewBox="0 0 24 24">
+      <path d="M4 12h15M13.2 6 19.4 12l-6.2 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24">
+      <path d="m4.8 12.4 4.6 4.6 9.8-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24">
+      <path d="M7.5 4.6 19 12 7.5 19.4V4.6Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="icon-pause" viewBox="0 0 24 24">
+      <path d="M7 4.5h3.4v15H7zM13.6 4.5H17v15h-3.4z" fill="currentColor"/>
+    </symbol>
+    <symbol id="icon-pin" viewBox="0 0 24 24">
+      <path d="M12 21s6.8-5.5 6.8-10.4A6.8 6.8 0 0 0 5.2 10.6C5.2 15.5 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+      <circle cx="12" cy="10.4" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    </symbol>
+    <symbol id="icon-clock" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M12 7.2V12l3.3 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#start" aria-label="Feuerwehr Schrietz Wiehl – Startseite">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#icon-flame"/></svg></span>
+        <span class="brand-text">
+          <strong>Feuerwehr</strong>
+          <span>Schrietz Wiehl</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="primaryNav" aria-label="Hauptnavigation">
+        <ul class="nav-list">
+          <li><a href="#ueber-uns">Über uns</a></li>
+          <li><a href="#community">Community</a></li>
+          <li><a href="#aktivitaeten">Aktivitäten</a></li>
+          <li><a href="#projekte">Projekte</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#abspann">Abspann</a></li>
+        </ul>
+        <a class="btn btn-primary btn-sm nav-cta" href="https://discord.gg/xvhhba9brE" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" aria-hidden="true"><use href="#icon-discord"/></svg>
+          Discord
+        </a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="primaryNav" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="start">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-grid"></div>
+        <div class="hero-glow hero-glow--one"></div>
+        <div class="hero-glow hero-glow--two"></div>
+        <div class="hero-beam"></div>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow hero-eyebrow"><span class="pulse-dot" aria-hidden="true"></span> Roblox Fire Department Roleplay · Leitstelle 1/1</span>
+          <h1 class="hero-title">Feuerwehr <span class="text-red">Schrietz</span> Wiehl</h1>
+          <p class="hero-lead">
+            Eine der professionellsten Feuerwehr-Roleplay-Communities im Oberbergischen Kreis.
+            Realistische Einsätze, ein eingespieltes Team, moderne Ausrüstung und eine Leitstelle,
+            die nie schläft – mitten in Roblox.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://discord.gg/xvhhba9brE" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#icon-discord"/></svg>
+              Jetzt Discord beitreten
+            </a>
+            <a class="btn btn-ghost" href="#aktivitaeten">
+              Aktivitäten ansehen
+              <svg class="icon icon-arrow" aria-hidden="true"><use href="#icon-arrow"/></svg>
+            </a>
+          </div>
+
+          <ul class="hero-facts">
+            <li>
+              <strong><span class="counter" data-count="6">6</span></strong>
+              <span>Community-Mitglieder</span>
+            </li>
+            <li>
+              <strong><span class="counter" data-count="8">8</span></strong>
+              <span>Teammitglieder</span>
+            </li>
+            <li>
+              <strong><span class="counter" data-count="640" data-suffix="+">640+</span></strong>
+              <span>Gefahrene Einsätze</span>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="hero-panel reveal" aria-label="Leitstellen-Status">
+          <div class="panel-head">
+            <span class="panel-title"><span class="status-dot" aria-hidden="true"></span> Leitstelle Schrietz</span>
+            <span class="panel-badge">LIVE</span>
+          </div>
+          <div class="panel-body">
+            <dl class="status-list">
+              <div class="status-row">
+                <dt>Dienststatus</dt>
+                <dd class="status-ok">Einsatzbereit</dd>
+              </div>
+              <div class="status-row">
+                <dt>Funkkreise</dt>
+                <dd>4 / 4 erreichbar</dd>
+              </div>
+              <div class="status-row">
+                <dt>Diensthabende</dt>
+                <dd>12 Kräfte im Dienst</dd>
+              </div>
+              <div class="status-row">
+                <dt>Nächster Übungsabend</dt>
+                <dd>Freitag · 20:00 Uhr</dd>
+              </div>
+            </dl>
+
+            <div class="radio-box" aria-hidden="true">
+              <div class="radio-line"><span class="radio-chip">FLORIAN SCHRIETZ 1/1</span><span class="radio-time">20:41</span></div>
+              <p>„Leitstelle für alle Einsatzkräfte, Einheiten zur Einsatzbereitschaft melden.“</p>
+              <div class="radio-wave"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            </div>
+          </div>
+          <div class="panel-foot">
+            <span>Status: <strong>Dienstbetrieb aktiv</strong></span>
+            <svg class="icon" aria-hidden="true"><use href="#icon-radio"/></svg>
+          </div>
+        </aside>
+      </div>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Brandbekämpfung</span><span class="dot">◆</span>
+          <span>Technische Hilfeleistung</span><span class="dot">◆</span>
+          <span>Leitstellendienst</span><span class="dot">◆</span>
+          <span>Ausbildung &amp; Übungen</span><span class="dot">◆</span>
+          <span>Community-Events</span><span class="dot">◆</span>
+          <span>Feuerwehr Schrietz Wiehl</span><span class="dot">◆</span>
+          <span>Brandbekämpfung</span><span class="dot">◆</span>
+          <span>Technische Hilfeleistung</span><span class="dot">◆</span>
+          <span>Leitstellendienst</span><span class="dot">◆</span>
+          <span>Ausbildung &amp; Übungen</span><span class="dot">◆</span>
+          <span>Community-Events</span><span class="dot">◆</span>
+          <span>Feuerwehr Schrietz Wiehl</span><span class="dot">◆</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ÜBER UNS ============ -->
+    <section class="section" id="ueber-uns">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Über uns</span>
+          <h2>Mehr als ein Roleplay – <span class="text-red">eine Gemeinschaft</span></h2>
+          <p class="lead">
+            Die Feuerwehr Schrietz Wiehl ist eine fiktive Feuerwehr innerhalb von Roblox, die den Alltag
+            einer realen Feuerwache so nah wie möglich abbildet. Vom ersten Funkruf bis zum Abschlussbericht
+            arbeiten wir mit klaren Strukturen, echtem Dienstplan und viel Liebe zum Detail.
+          </p>
+        </div>
+
+        <div class="about-layout">
+          <div class="about-text reveal">
+            <h3>Unser Anspruch: Realismus mit Spaßfaktor</h3>
+            <p>
+              Wir verbinden realistische Einsatzszenarien mit einer offenen, freundlichen Community.
+              Neue Mitglieder werden nicht ins kalte Wasser geworfen: Nach der Bewerbung folgt eine
+              strukturierte Einweisung, in der du Funkdisziplin, Gerätekunde und Einsatzabläufe kennenlernst.
+            </p>
+            <p>
+              Ob du im Innenangriff stehst, dich um Technik und Ausrüstung kümmerst oder als
+              Disponent in der Leitstelle den Überblick behältst – bei uns findet jede Rolle ihren Platz.
+              Fehler sind erlaubt, solange man daraus lernt: Unser Team begleitet dich Schritt für Schritt.
+            </p>
+
+            <ul class="check-list">
+              <li><svg class="icon" aria-hidden="true"><use href="#icon-check"/></svg> Klare Dienstgrade und nachvollziehbare Karrierewege</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#icon-check"/></svg> Regelmäßige Übungen und ehrliches Feedback</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#icon-check"/></svg> Faires Miteinander ohne Machtspielchen</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#icon-check"/></svg> Aktive Community auch außerhalb des Dienstes</li>
+            </ul>
+          </div>
+
+          <div class="about-cards">
+            <article class="feature-card reveal">
+              <span class="feature-icon"><svg aria-hidden="true"><use href="#icon-shield"/></svg></span>
+              <h3>Struktur</h3>
+              <p>Dienstgrade, Zuständigkeiten und ein Team, das Verantwortung übernimmt – vom Owner bis zum Head of Staff.</p>
+            </article>
+            <article class="feature-card reveal" data-delay="80">
+              <span class="feature-icon"><svg aria-hidden="true"><use href="#icon-radio"/></svg></span>
+              <h3>Leitstelle</h3>
+              <p>Eigener Funkverkehr, realistische Lagemeldungen und Disponenten, die den Überblick behalten.</p>
+            </article>
+            <article class="feature-card reveal" data-delay="160">
+              <span class="feature-icon"><svg aria-hidden="true"><use href="#icon-wrench"/></svg></span>
+              <h3>Technik</h3>
+              <p>Moderne Ausrüstung und eingespielte Abläufe, die zu jeder Einsatzlage passen.</p>
+            </article>
+            <article class="feature-card reveal" data-delay="240">
+              <span class="feature-icon"><svg aria-hidden="true"><use href="#icon-users"/></svg></span>
+              <h3>Community</h3>
+              <p>Ein freundlicher Ort für Feuerwehrfans – egal, ob du gerade erst anfängst oder schon Profi bist.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMMUNITY ============ -->
+    <section class="section section-alt" id="community">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Unsere Community</span>
+          <h2>Zusammen Dienst schieben, <span class="text-red">zusammen wachsen</span></h2>
+          <p class="lead">
+            Bei uns zählt nicht, wie lange du schon spielst, sondern wie du dich einbringst.
+            Wir sind ein bunter Haufen aus Feuerwehr-Nerds, Roleplay-Fans und Menschen, die einfach
+            gemeinsam etwas aufbauen wollen.
+          </p>
+        </div>
+
+        <div class="value-grid">
+          <article class="value-card reveal">
+            <span class="value-number">01</span>
+            <h3>Respekt &amp; Fairness</h3>
+            <p>Wir sprechen miteinander, nicht übereinander. Kritik ist willkommen, solange sie konstruktiv bleibt.</p>
+          </article>
+          <article class="value-card reveal" data-delay="80">
+            <span class="value-number">02</span>
+            <h3>Team vor Ego</h3>
+            <p>Ein Einsatz funktioniert nur gemeinsam. Niemand wird zurückgelassen – weder im Einsatz noch im Discord.</p>
+          </article>
+          <article class="value-card reveal" data-delay="160">
+            <span class="value-number">03</span>
+            <h3>Lernbereitschaft</h3>
+            <p>Neue Ideen, neue Taktiken, neue Leute: Wir bleiben neugierig und entwickeln uns ständig weiter.</p>
+          </article>
+          <article class="value-card reveal" data-delay="240">
+            <span class="value-number">04</span>
+            <h3>Verlässlichkeit</h3>
+            <p>Zusagen gelten. Wer sich für einen Dienst einträgt, ist da – und wenn nicht, sagt er rechtzeitig Bescheid.</p>
+          </article>
+        </div>
+
+        <div class="community-cta reveal">
+          <div>
+            <h3>Du willst dabei sein?</h3>
+            <p>Der Discord ist unser Wohnzimmer: Dort findest du Ankündigungen, Dienstpläne, Bewerbungen und jede Menge nette Leute.</p>
+          </div>
+          <a class="btn btn-primary" href="https://discord.gg/xvhhba9brE" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true"><use href="#icon-discord"/></svg>
+            Community beitreten
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ AKTIVITÄTEN & EINSÄTZE ============ -->
+    <section class="section" id="aktivitaeten">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Aktivitäten &amp; Einsätze</span>
+          <h2>Wenn der Melder geht, <span class="text-red">zählt jede Sekunde</span></h2>
+          <p class="lead">
+            Von Kleinbränden bis zur großen technischen Hilfeleistung: Unser Dienstalltag ist abwechslungsreich.
+            Jede Woche stehen Übungen, gemeinsame Dienste und spontane Einsatzlagen auf dem Plan.
+          </p>
+        </div>
+
+        <div class="activity-grid">
+          <article class="activity-card reveal">
+            <span class="activity-icon"><svg aria-hidden="true"><use href="#icon-flame"/></svg></span>
+            <h3>Brandbekämpfung</h3>
+            <p>Innenangriff, Löschaufbau, Wasserförderung über lange Wegstrecken und die Rettung von Personen aus verrauchten Gebäuden.</p>
+            <span class="tag">Kernaufgabe</span>
+          </article>
+          <article class="activity-card reveal" data-delay="70">
+            <span class="activity-icon"><svg aria-hidden="true"><use href="#icon-wrench"/></svg></span>
+            <h3>Technische Hilfeleistung</h3>
+            <p>Verkehrsunfälle, eingeklemmte Personen, umgestürzte Bäume oder Ölspuren – hier ist Fingerspitzengefühl gefragt.</p>
+            <span class="tag">Kernaufgabe</span>
+          </article>
+          <article class="activity-card reveal" data-delay="140">
+            <span class="activity-icon"><svg aria-hidden="true"><use href="#icon-radio"/></svg></span>
+            <h3>Leitstellen-Dienst</h3>
+            <p>Notrufe annehmen, Einsatzkräfte disponieren, Lagemeldungen dokumentieren und den Funkkanal sauber halten.</p>
+            <span class="tag">Disposition</span>
+          </article>
+          <article class="activity-card reveal" data-delay="210">
+            <span class="activity-icon"><svg aria-hidden="true"><use href="#icon-shield"/></svg></span>
+            <h3>Rettungsdienst-Support</h3>
+            <p>Zusammenarbeit mit dem Rettungsdienst, Tragehilfen, Absicherung von Einsatzstellen und Übergabe an die Klinik.</p>
+            <span class="tag">Schnittstelle</span>
+          </article>
+          <article class="activity-card reveal" data-delay="280">
+            <span class="activity-icon"><svg aria-hidden="true"><use href="#icon-graduation"/></svg></span>
+            <h3>Ausbildung &amp; Übungen</h3>
+            <p>Grundausbildung, Gerätekunde, Atemschutz und realistische Einsatzübungen mit anschließender Nachbesprechung.</p>
+            <span class="tag">Wöchentlich</span>
+          </article>
+          <article class="activity-card reveal" data-delay="350">
+            <span class="activity-icon"><svg aria-hidden="true"><use href="#icon-calendar"/></svg></span>
+            <h3>Events &amp; Community-Abende</h3>
+            <p>Interne Wettkämpfe, gemeinsame Filmabende, Kennenlernrunden und Aktionen mit befreundeten Communities.</p>
+            <span class="tag">Community</span>
+          </article>
+        </div>
+
+        <div class="timeline-block reveal">
+          <h3 class="subhead">So läuft ein Einsatz bei uns ab</h3>
+          <ol class="timeline">
+            <li>
+              <span class="timeline-step">01</span>
+              <h4>Notruf &amp; Aufnahme</h4>
+              <p>Die Leitstelle nimmt den Notruf auf, erfasst Ort, Lage und betroffene Personen.</p>
+            </li>
+            <li>
+              <span class="timeline-step">02</span>
+              <h4>Alarmierung</h4>
+              <p>Passende Einheiten werden disponiert und über Funk mit einer klaren Einsatzmeldung alarmiert.</p>
+            </li>
+            <li>
+              <span class="timeline-step">03</span>
+              <h4>Anfahrt &amp; Einsatz</h4>
+              <p>Am Einsatzort erfolgt die Lagemeldung, danach arbeiten wir strukturiert nach Einsatzpriorität.</p>
+            </li>
+            <li>
+              <span class="timeline-step">04</span>
+              <h4>Abschluss &amp; Auswertung</h4>
+              <p>Einsatzstelle wird übergeben, Ausrüstung wiederhergestellt und der Einsatz gemeinsam ausgewertet.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJEKTE ============ -->
+    <section class="section" id="projekte">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Projekte &amp; Zukunftspläne</span>
+          <h2>Was wir als Nächstes <span class="text-red">aufbauen</span></h2>
+          <p class="lead">
+            Wir ruhen uns nicht auf dem Erreichten aus. Als Nächstes bauen wir unsere eigene
+            Ausbildungsakademie auf – strukturiert, praxisnah und für alle Dienstgrade.
+          </p>
+        </div>
+
+        <div class="roadmap">
+                    <article class="roadmap-item reveal" data-delay="80">
+            <div class="roadmap-meta">
+              <span class="roadmap-status status-dev">In Entwicklung</span>
+              <span class="roadmap-quarter">Q1 2027</span>
+            </div>
+            <h3>Ausbildungsakademie</h3>
+            <p>Strukturierte Lehrgänge vom Truppmann bis zum Zugführer – mit Prüfungen, Urkunden und einem eigenen Ausbilderteam.</p>
+          </article>
+
+                                      </div>
+      </div>
+    </section>
+
+    <!-- ============ TEAM ============ -->
+    <section class="section section-alt" id="team">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Unser Team</span>
+          <h2>Die Köpfe hinter <span class="text-red">Schrietz Wiehl</span></h2>
+          <p class="lead">
+            Diese acht Menschen halten die Community am Laufen – von der Leitung über die Entwicklung
+            bis zur Moderation. Bei Fragen, Ideen oder Problemen sind sie deine Ansprechpartner.
+          </p>
+        </div>
+
+        <div class="team-grid">
+          <article class="team-card reveal">
+            <span class="team-avatar" aria-hidden="true">P</span>
+            <div class="team-info">
+              <span class="team-role">Owner</span>
+              <h3>Pingu</h3>
+              <p>Leitung der Community, strategische Ausrichtung und letzte Entscheidung.</p>
+            </div>
+          </article>
+          <article class="team-card reveal" data-delay="60">
+            <span class="team-avatar" aria-hidden="true">D</span>
+            <div class="team-info">
+              <span class="team-role">Stellvertretender Owner</span>
+              <h3>Drache2606</h3>
+              <p>Rechte Hand der Leitung, Koordination des Teams und Vertretung im Alltag.</p>
+            </div>
+          </article>
+          <article class="team-card reveal" data-delay="120">
+            <span class="team-avatar" aria-hidden="true">L</span>
+            <div class="team-info">
+              <span class="team-role">Developer</span>
+              <h3>Lukas is AFK btw</h3>
+              <p>Technische Entwicklung, Skripte und der Ausbau unserer Systeme.</p>
+            </div>
+          </article>
+          <article class="team-card reveal" data-delay="180">
+            <span class="team-avatar" aria-hidden="true">FW</span>
+            <div class="team-info">
+              <span class="team-role">Developer</span>
+              <h3>Florian Winkler</h3>
+              <p>Umsetzung von Features, Qualitätssicherung und technische Weiterentwicklung.</p>
+            </div>
+          </article>
+          <article class="team-card reveal" data-delay="240">
+            <span class="team-avatar" aria-hidden="true">L</span>
+            <div class="team-info">
+              <span class="team-role">Leitender Admin</span>
+              <h3>Louzel10</h3>
+              <p>Administrative Leitung, Teamabsprachen und Organisation des Dienstbetriebs.</p>
+            </div>
+          </article>
+          <article class="team-card reveal" data-delay="300">
+            <span class="team-avatar" aria-hidden="true">M</span>
+            <div class="team-info">
+              <span class="team-role">Admin</span>
+              <h3>Milan</h3>
+              <p>Ansprechpartner für Mitglieder, Konfliktlösung und Einhaltung unserer Regeln.</p>
+            </div>
+          </article>
+          <article class="team-card reveal" data-delay="360">
+            <span class="team-avatar" aria-hidden="true">T</span>
+            <div class="team-info">
+              <span class="team-role">Leitender Admin</span>
+              <h3>Timer the 3thrd</h3>
+              <p>Leitung administrativer Prozesse und Unterstützung des gesamten Teams.</p>
+            </div>
+          </article>
+          <article class="team-card reveal" data-delay="420">
+            <span class="team-avatar" aria-hidden="true">C</span>
+            <div class="team-info">
+              <span class="team-role">Head of Staff</span>
+              <h3>CharlieX</h3>
+              <p>Personalorganisation, Betreuung neuer Mitglieder und interne Kommunikation.</p>
+            </div>
+          </article>
+        </div>
+
+        <p class="section-note reveal">
+          Alle genannten Personen sind Teammitglieder der Roblox-Community „Feuerwehr Schrietz Wiehl“.
+          Funktionsbezeichnungen beziehen sich ausschließlich auf das Community-Roleplay.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ DISCORD ============ -->
+    <section class="section discord-section" id="discord">
+      <div class="container">
+        <div class="discord-card reveal">
+          <div class="discord-copy">
+            <span class="eyebrow">Discord</span>
+            <h2>Dein Platz in der <span class="text-red">Wachmannschaft</span></h2>
+            <p>
+              Alles beginnt mit einem Klick: Auf unserem Discord findest du die Bewerbung,
+              alle Ankündigungen, den Dienstplan und die Menschen hinter der Feuerwehr.
+              Komm einfach rein und sag Hallo – wir freuen uns auf dich.
+            </p>
+
+            <ol class="discord-steps">
+              <li><span>1</span> Discord beitreten und die Regeln lesen</li>
+              <li><span>2</span> Im Bewerbungsbereich vorstellen</li>
+              <li><span>3</span> Einweisung erhalten und ersten Dienst antreten</li>
+            </ol>
+
+            <a class="btn btn-primary btn-lg" href="https://discord.gg/xvhhba9brE" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#icon-discord"/></svg>
+              Discord beitreten
+            </a>
+            <p class="discord-small">Einladungslink: discord.gg/xvhhba9brE</p>
+          </div>
+
+          <div class="discord-visual" aria-hidden="true">
+            <div class="discord-badge">
+              <svg viewBox="0 0 24 24"><use href="#icon-discord"/></svg>
+            </div>
+            <div class="discord-status">
+              <span class="status-dot"></span>
+              <div>
+                <strong>Feuerwehr Schrietz Wiehl</strong>
+                <span>Community-Server · online</span>
+              </div>
+            </div>
+            <ul class="discord-channels">
+              <li><span>#</span> willkommen</li>
+              <li><span>#</span> ankündigungen</li>
+              <li><span>#</span> bewerbungen</li>
+              <li><span>#</span> dienstplan</li>
+              <li><span>#</span> einsatzberichte</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABSPANN ============ -->
+    <section class="section credits-section" id="abspann">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Film-Abspann</span>
+          <h2>Der Abspann</h2>
+          <p class="lead">
+            Wie im Kino: ein letzter Blick auf alle, die dieses Projekt möglich gemacht haben.
+            Der Abspann läuft automatisch – du kannst ihn jederzeit anhalten.
+          </p>
+        </div>
+
+
+        <div class="credits-frame reveal">
+          <div class="credits-stage" id="creditsStage" tabindex="0" aria-label="Film-Abspann, automatisch scrollend">
+            <div class="credits-crawl" id="creditsCrawl">
+
+              <div class="credits-intro">
+                <span class="credits-kicker">Feuerwehr Schrietz Wiehl</span>
+                <h3>Ein Projekt von Lukas Weber</h3>
+                <p>Roblox Feuerwehr-Roleplay-Community</p>
+                <span class="credits-line" aria-hidden="true"></span>
+              </div>
+
+              <div class="credits-group credits-group--featured">
+                <h3 class="credit-role">Erfinder</h3>
+                <ul class="credit-names">
+                  <li class="credit-highlight">Lukas Weber</li>
+                </ul>
+              </div>
+
+              <div class="credits-grid">
+                <div class="credits-group">
+                  <h3 class="credit-role">Mitgründer</h3>
+                  <ul class="credit-names">
+                    <li>Jonas Brinkmann</li>
+                    <li>Fabian Ostermann</li>
+                    <li>Simon Kalthoff</li>
+                    <li>Tobias Reimann</li>
+                    <li>Erik Sandmann</li>
+                    <li>Philipp Born</li>
+                    <li>Janis Kremer</li>
+                    <li>Matthias Vollmer</li>
+                    <li>Robert Lenz</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">Executive Producer</h3>
+                  <ul class="credit-names">
+                    <li>Andreas Wollmann</li>
+                    <li>Christoph Behrens</li>
+                    <li>Stefan Kappler</li>
+                    <li>Michael Grundmann</li>
+                    <li>Oliver Dressler</li>
+                    <li>Thomas Ehrlich</li>
+                    <li>Patrick Sauer</li>
+                    <li>Björn Hellwig</li>
+                    <li>Kevin Färber</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">Projektleitung</h3>
+                  <ul class="credit-names">
+                    <li>Sandra Kienzle</li>
+                    <li>Daniela Roth</li>
+                    <li>Martin Seifert</li>
+                    <li>Christian Blaschke</li>
+                    <li>Nadine Krupp</li>
+                    <li>Frank Weidemann</li>
+                    <li>Julia Hartmann</li>
+                    <li>Ralf Petersen</li>
+                    <li>Timo Berner</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">Produktionsleitung</h3>
+                  <ul class="credit-names">
+                    <li>Holger Rademacher</li>
+                    <li>Bianca Staub</li>
+                    <li>Ingo Wenzel</li>
+                    <li>Katrin Löffler</li>
+                    <li>Uwe Brandstetter</li>
+                    <li>Melanie Sturm</li>
+                    <li>Gerd Appelt</li>
+                    <li>Anja Kessler</li>
+                    <li>Rainer Bock</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">Webdesign</h3>
+                  <ul class="credit-names">
+                    <li>Lisa Amend</li>
+                    <li>Marvin Hesse</li>
+                    <li>Carolin Kurz</li>
+                    <li>Nils Bergmann</li>
+                    <li>Sarah Pflüger</li>
+                    <li>Dominik Reuter</li>
+                    <li>Vanessa Klar</li>
+                    <li>Elias Mertens</li>
+                    <li>Hanna Wirth</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">UI/UX Design</h3>
+                  <ul class="credit-names">
+                    <li>Sophie Engel</li>
+                    <li>Julian Kraus</li>
+                    <li>Marie Lindner</li>
+                    <li>Felix Dorn</li>
+                    <li>Laura Steinbach</li>
+                    <li>Maximilian Geiger</li>
+                    <li>Nina Albrecht</li>
+                    <li>Paul Reiter</li>
+                    <li>Tessa Maier</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">Frontend Development</h3>
+                  <ul class="credit-names">
+                    <li>Alexander Rupp</li>
+                    <li>Christoph Nagel</li>
+                    <li>Robin Stahl</li>
+                    <li>David Fink</li>
+                    <li>Sven Ott</li>
+                    <li>Marius Kühl</li>
+                    <li>Yannick Sommer</li>
+                    <li>Florian Gessner</li>
+                    <li>Adrian Wolf</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">Backend Development</h3>
+                  <ul class="credit-names">
+                    <li>Benjamin Franke</li>
+                    <li>Sebastian Krause</li>
+                    <li>Marco Wendt</li>
+                    <li>Lukas Pfeifer</li>
+                    <li>Tobias Jäger</li>
+                    <li>Andre Hübner</li>
+                    <li>Daniel Kurth</li>
+                    <li>Nico Brand</li>
+                    <li>Fabio Ziegler</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">Programmierung</h3>
+                  <ul class="credit-names">
+                    <li>Simon Auer</li>
+                    <li>Robert Engelhardt</li>
+                    <li>Jan Wiegand</li>
+                    <li>Philipp Bernhardt</li>
+                    <li>Kevin Mohr</li>
+                    <li>Tim Grünwald</li>
+                    <li>Erik Hafner</li>
+                    <li>Tom Lichtenberg</li>
+                    <li>Michel Dörfler</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">Grafikdesign</h3>
+                  <ul class="credit-names">
+                    <li>Jessica Ahrens</li>
+                    <li>Marcel Krämer</li>
+                    <li>Sabrina Vogt</li>
+                    <li>Sascha Kühne</li>
+                    <li>Leonie Bär</li>
+                    <li>Timo Drechsler</li>
+                    <li>Alina Seifried</li>
+                    <li>Patrick Löw</li>
+                    <li>Denise Hartung</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">Konzeptentwicklung</h3>
+                  <ul class="credit-names">
+                    <li>Nadine Kirsch</li>
+                    <li>Steffen Rau</li>
+                    <li>Kerstin Böhm</li>
+                    <li>Mirko Stiller</li>
+                    <li>Tamara Eberl</li>
+                    <li>Ulrich Gans</li>
+                    <li>Heike Wessels</li>
+                    <li>Bernd Franzen</li>
+                    <li>Nora Steffen</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">Sounddesign</h3>
+                  <ul class="credit-names">
+                    <li>Lars Brenner</li>
+                    <li>Melvin Rausch</li>
+                    <li>Anne Kirchner</li>
+                    <li>Gregor Stein</li>
+                    <li>Nils Waldmann</li>
+                    <li>Jasmin Neubauer</li>
+                    <li>Oliver Hahn</li>
+                    <li>Sina Krüger</li>
+                    <li>Emil Straub</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">Qualitätssicherung</h3>
+                  <ul class="credit-names">
+                    <li>Marion Seidel</li>
+                    <li>Rüdiger Bolz</li>
+                    <li>Claudia Reinke</li>
+                    <li>Peter Vogl</li>
+                    <li>Astrid Klink</li>
+                    <li>Harald Mohn</li>
+                    <li>Silke Trautmann</li>
+                    <li>Bernd Hölzer</li>
+                    <li>Gabi Wendler</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">Testing</h3>
+                  <ul class="credit-names">
+                    <li>Rico Bommer</li>
+                    <li>Ellen Petzold</li>
+                    <li>Tobias Kühner</li>
+                    <li>Yvonne Mader</li>
+                    <li>Kai Vollrath</li>
+                    <li>Lena Spieß</li>
+                    <li>Marvin Decker</li>
+                    <li>Sandra Ruf</li>
+                    <li>Jens Amberg</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">Community Management</h3>
+                  <ul class="credit-names">
+                    <li>Nico Fehr</li>
+                    <li>Maren Blume</li>
+                    <li>Tobias Kranz</li>
+                    <li>Lisa Bender</li>
+                    <li>Svenja Loos</li>
+                    <li>Dennis Kuhn</li>
+                    <li>Alexandra Prinz</li>
+                    <li>Jannik Böhme</li>
+                    <li>Carla Wenz</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">Moderation</h3>
+                  <ul class="credit-names">
+                    <li>Kevin Stork</li>
+                    <li>Michelle Faust</li>
+                    <li>Danny Kroll</li>
+                    <li>Sarah Nolte</li>
+                    <li>Björn Damm</li>
+                    <li>Selina Pohl</li>
+                    <li>Marcel Riedel</li>
+                    <li>Jenny Aumann</li>
+                    <li>Timo Schaal</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">Organisation</h3>
+                  <ul class="credit-names">
+                    <li>Heiko Wendland</li>
+                    <li>Birgit Kammer</li>
+                    <li>Udo Lenhardt</li>
+                    <li>Petra Bischof</li>
+                    <li>Frank Grunert</li>
+                    <li>Maja Hollstein</li>
+                    <li>Gerrit Ahlers</li>
+                    <li>Sonja Böttcher</li>
+                    <li>Klaus Rieth</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group">
+                  <h3 class="credit-role">Dokumentation</h3>
+                  <ul class="credit-names">
+                    <li>Anke Berg</li>
+                    <li>Rainer Schön</li>
+                    <li>Ilka Martens</li>
+                    <li>Jörg Weißmann</li>
+                    <li>Sabine Ehlert</li>
+                    <li>Volker Rüger</li>
+                    <li>Christine Bader</li>
+                    <li>Manuel Krauss</li>
+                    <li>Isabell Gärtner</li>
+                  </ul>
+                </div>
+
+                <div class="credits-group credits-group--thanks">
+                  <h3 class="credit-role">Special Thanks</h3>
+                  <ul class="credit-names">
+                    <li>Emil Waldner</li>
+                    <li>Romy Teichmann</li>
+                    <li>Konrad Feller</li>
+                    <li>Silvia Markert</li>
+                    <li>Anton Rieger</li>
+                    <li>Helga Bruns</li>
+                    <li>Lorenz Kappel</li>
+                    <li>Mira Dennhardt</li>
+                    <li>Familie Weber</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="credits-outro">
+                <span class="credits-kicker">Danke fürs Zuschauen</span>
+                <h3>Feuerwehr Schrietz Wiehl</h3>
+                <p>Gegründet von Lukas Weber · Roblox Feuerwehr-Roleplay</p>
+                <a class="btn btn-primary" href="https://discord.gg/xvhhba9brE" target="_blank" rel="noopener noreferrer">
+                  <svg class="icon" aria-hidden="true"><use href="#icon-discord"/></svg>
+                  Jetzt beitreten
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="credits-controls">
+            <button class="credits-toggle" id="creditsToggle" type="button" aria-pressed="false">
+              <svg class="icon icon-play" aria-hidden="true"><use href="#icon-play"/></svg>
+              <svg class="icon icon-pause" aria-hidden="true"><use href="#icon-pause"/></svg>
+              <span id="creditsToggleLabel">Abspann starten</span>
+            </button>
+            <span class="credits-hint">Der Abspann scrollt automatisch bis zum Ende.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="#start" aria-label="Zurück zum Anfang">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#icon-flame"/></svg></span>
+          <span class="brand-text">
+            <strong>Feuerwehr</strong>
+            <span>Schrietz Wiehl</span>
+          </span>
+        </a>
+        <p>
+          Professionelle Roblox-Feuerwehr-Roleplay-Community aus dem Oberbergischen Kreis.
+          Ehrenamtlich gedacht, gemeinsam gelebt – im Spiel und im Discord.
+        </p>
+        <a class="footer-discord" href="https://discord.gg/xvhhba9brE" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" aria-hidden="true"><use href="#icon-discord"/></svg>
+          discord.gg/xvhhba9brE
+        </a>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer-Navigation">
+        <div>
+          <h3>Die Website</h3>
+          <ul>
+            <li><a href="#start">Startseite</a></li>
+            <li><a href="#ueber-uns">Über uns</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#aktivitaeten">Aktivitäten</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Mehr</h3>
+          <ul>
+            <li><a href="#projekte">Projekte</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#discord">Discord</a></li>
+            <li><a href="#abspann">Abspann</a></li>
+            <li><a href="https://discord.gg/xvhhba9brE" target="_blank" rel="noopener noreferrer">Bewerbung</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Rechtliches</h3>
+          <ul>
+            <li><a href="impressum.html">Impressum</a></li>
+            <li><a href="datenschutz.html">Datenschutz</a></li>
+            <li><a href="impressum.html#hinweis">Projekt-Hinweis</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> Feuerwehr Schrietz Wiehl. Alle Rechte vorbehalten.</p>
+      <p class="footer-legal">
+        Kein offizielles Angebot der Stadt Wiehl oder einer realen Feuerwehr.
+        Ein privates Roblox-Roleplay-Projekt.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
